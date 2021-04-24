@@ -5,13 +5,13 @@
 }
 
 body {
-  color: #39a6b2;
+  color: #000000;
   font-family: Helvetica, Arial, sans-serif;
 }
 
 header {
   padding: 20px 35px;
-  background-color: #39a6b2;
+  background-color: #052229;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -27,7 +27,7 @@ header {
 header h1 {
   font-weight: bold;
   font-size: 36px;
-  color: var(--primary-color);
+  color: #deebf4;
   margin: 0;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -57,17 +57,51 @@ header nav ul li a {
 }
 
 .hero {
-  background-image: url("https://static.fullstack-bootcamp.com/module-1/hero-bg.jpg");
+  background-image: url("../images/hero-bg.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
   background-attachment: fixed;
   background-position: 80%;
-  padding: 80px;
+  padding: 100px;
+  margin-bottom: 10px;
 }
 
 .hero h2 {
   position: absolute;
-  right: 0px;
+  right: 100px;
   margin-top: 25px;
+}
+
+.main-content {
+  display: flex;
+}
+
+.title-container {
+  flex: 3;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 16px;
+  border-right: solid 3px;
+  margin-bottom: 15px;
+}
+
+.content-container {
+  flex: 9;
+  padding: 16px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project {
+  width: 50%;
+}
+
+.project:first-of-type {
+  width: 100%;
+}
+
+.contact {
+  margin: 0px 100px 0 100px;
 }
