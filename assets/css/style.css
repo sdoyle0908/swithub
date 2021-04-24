@@ -55,3 +55,19 @@ header nav ul li a {
   font-size: 1.55vw;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
+.hero {
+  background-image: url("https://static.fullstack-bootcamp.com/module-1/hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  background-attachment: fixed;
+  background-position: 80%;
+  padding: 80px;
+}
+
+.hero h2 {
+  position: absolute;
+  right: 0px;
+  margin-top: 25px;
+}
