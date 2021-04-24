@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -5,8 +7,9 @@
 }
 
 body {
+  background-color: #ebf2f7;
   color: #000000;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Quattrocento Sans", sans-serif;
 }
 
 header {
@@ -34,7 +37,7 @@ header h1 {
 
 header a {
   text-decoration: none;
-  color: var(--primary-color);
+  color: #deebf4;
 }
 
 header nav {
@@ -56,6 +59,13 @@ header nav ul li a {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+header nav ul li a:hover {
+  background: rgb(21, 83, 97);
+  color: white;
+  border-radius: 15px;
+  text-shadow: none;
+}
+
 .hero {
   background-image: url("../images/hero-bg.jpg");
   background-size: cover;
@@ -71,10 +81,16 @@ header nav ul li a {
   position: absolute;
   right: 100px;
   margin-top: 25px;
+  color: #deebf4;
 }
 
 .main-content {
   display: flex;
+}
+
+.main-content h3 {
+  font-size: 50px;
+  color: #35586e;
 }
 
 .title-container {
@@ -92,6 +108,7 @@ header nav ul li a {
   padding: 16px;
   display: flex;
   flex-wrap: wrap;
+  margin: 100px;
 }
 
 .project {
@@ -103,5 +120,5 @@ header nav ul li a {
 }
 
 .contact {
-  margin: 0px 100px 0 100px;
+  margin: 0px 80px 0 80px;
 }
