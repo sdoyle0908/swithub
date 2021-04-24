@@ -35,11 +35,6 @@ header h1 {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-header a {
-  text-decoration: none;
-  color: #deebf4;
-}
-
 header nav {
   margin: 7px 0;
 }
@@ -50,6 +45,11 @@ header nav ul {
   justify-content: space-between;
   align-items: center;
   list-style: none;
+}
+
+header a {
+  text-decoration: none;
+  color: #deebf4;
 }
 
 header nav ul li a {
@@ -109,6 +109,7 @@ header nav ul li a:hover {
   display: flex;
   flex-wrap: wrap;
   margin: 100px;
+  font-size: 20px;
 }
 
 .project {
@@ -120,5 +121,5 @@ header nav ul li a:hover {
 }
 
 .contact {
-  margin: 0px 80px 0 80px;
+  margin: 0px 60px 0 60px;
 }
