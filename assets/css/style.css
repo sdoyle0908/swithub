@@ -1,9 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap");
 
+/* FULL WIDTH */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
 }
 
 body {
@@ -31,7 +37,7 @@ header h1 {
   background-color: rgb(60, 165, 189);
   border-radius: 10px;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 2.25rem;
   color: #deebf4;
   margin: 0px;
   padding: 15px;
@@ -51,14 +57,13 @@ header nav ul {
 }
 
 header a {
-  text-decoration: none;
   color: #deebf4;
 }
 
 header nav ul li a {
   padding: 10px 15px;
   font-weight: lighter;
-  font-size: 1.55vw;
+  font-size: 1.5rem;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -83,19 +88,27 @@ header nav ul li a:hover {
 .hero h2 {
   position: absolute;
   right: 100px;
-  margin-top: 25px;
+  margin-top: 300px;
   color: #deebf4;
   background-color: rgb(60, 165, 189);
   border-radius: 10px;
   padding: 15px;
 }
 
+.hero div img {
+  width: 200px;
+  height: 300px;
+  border-radius: 15px;
+  border: solid 3px rgb(60, 165, 189);
+}
+
 .main-content {
   display: flex;
+  flex-direction: row;
 }
 
 .main-content h3 {
-  font-size: 50px;
+  font-size: 3.5rem;
   color: rgb(60, 165, 189);
 }
 
@@ -115,7 +128,7 @@ header nav ul li a:hover {
   display: flex;
   flex-wrap: wrap;
   margin-left: 20px;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #2c5768;
 }
 
@@ -125,6 +138,7 @@ header nav ul li a:hover {
   height: 100px;
   border: solid 3px rgb(60, 165, 189);
   margin-bottom: 5px;
+  position: relative;
 }
 
 .project:first-of-type {
@@ -139,8 +153,49 @@ header nav ul li a:hover {
   vertical-align: bottom;
 }
 
+.project-title {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 15px;
+  background-color: rgb(60, 165, 189);
+  font-size: 1.8rem;
+  color: white;
+  padding: 5px 5px 5px 15px;
+  display: block;
+}
+
 .contact {
   margin: 0px 60px 0 60px;
   text-decoration: none;
   color: #2c5768;
+}
+
+/* TABLET */
+@media only screen and (max-width: 1024px) {
+  header {
+    display: flex;
+    padding: 8px 32px;
+  }
+  header h1 {
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+  }
+  header nav ul li a {
+    font-size: 1.75rem;
+  }
+
+  .main-content {
+    flex-direction: column;
+  }
+  .title-container {
+    border-right: none;
+    border-bottom: solid 3px;
+    margin: 0 16px;
+    justify-content: center;
+  }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 375px) {
 }
