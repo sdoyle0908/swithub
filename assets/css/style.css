@@ -177,8 +177,8 @@ header nav ul li a:hover {
 /* applied style for img hover */
 
 .project img:hover {
-  -webkit-filter: blur(5px);
-  filter: blur(5px);
+  -webkit-filter: blur(3px);
+  filter: blur(3px);
 }
 
 .project-title {
@@ -186,7 +186,7 @@ header nav ul li a:hover {
   bottom: 0;
   margin-bottom: 15px;
   background-color: rgb(60, 165, 189);
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   color: white;
   padding: 5px 5px 5px 15px;
   display: block;
@@ -250,5 +250,9 @@ header nav ul li a:hover {
   .hero h2 {
     margin-top: 10px;
     align-self: center;
+  }
+
+  .project-title {
+    font-size: 1rem;
   }
 }
