@@ -12,11 +12,15 @@ html {
   font-size: 16px;
 }
 
+/* applied style to body */
+
 body {
   background-color: #ebf2f7;
   color: #000000;
   font-family: "Quattrocento Sans", sans-serif;
 }
+
+/* applied style to .header */
 
 header {
   padding: 20px 35px;
@@ -33,6 +37,8 @@ header {
   z-index: 9999;
 }
 
+/* applied style for header h1*/
+
 header h1 {
   background-color: rgb(60, 165, 189);
   border-radius: 10px;
@@ -43,6 +49,8 @@ header h1 {
   padding: 15px;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
+/* applied style for nav */
 
 header nav {
   margin: 7px 0;
@@ -67,12 +75,16 @@ header nav ul li a {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+/* applied style for nav hover */
+
 header nav ul li a:hover {
   background: rgb(60, 165, 189);
   color: white;
   border-radius: 15px;
   text-shadow: none;
 }
+
+/* applied style for .hero */
 
 .hero {
   background-image: url("../images/hero-bg.jpg");
@@ -84,7 +96,7 @@ header nav ul li a:hover {
   margin-bottom: 10px;
   padding: 10px 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .hero img {
@@ -100,6 +112,8 @@ header nav ul li a:hover {
   padding: 15px;
   align-self: flex-end;
 }
+
+/* applied styles for main content */
 
 .main-content {
   display: flex;
@@ -131,6 +145,8 @@ header nav ul li a:hover {
   color: #2c5768;
 }
 
+/* applied styles for .project */
+
 .project {
   flex-grow: 1;
   width: calc(50% - 10px);
@@ -158,6 +174,13 @@ header nav ul li a:hover {
   vertical-align: bottom;
 }
 
+/* applied style for img hover */
+
+.project img:hover {
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+}
+
 .project-title {
   position: absolute;
   bottom: 0;
@@ -168,6 +191,8 @@ header nav ul li a:hover {
   padding: 5px 5px 5px 15px;
   display: block;
 }
+
+/* applied style for .contact */
 
 .contact {
   margin: 0px 60px 0 60px;
