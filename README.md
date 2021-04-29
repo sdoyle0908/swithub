@@ -51,3 +51,6 @@ Screenshots below show my portfolio uploaded in Git Page:
 ![Screenshot6](assets/images/Screenshot-6.png)
 
 ## URL's
+
+- [URL of the GitHub repository](https://github.com/sdoyle0908/swithub)
+- [URL of deployed application](https://sdoyle0908.github.io/swithub/)
