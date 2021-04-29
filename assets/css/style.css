@@ -123,6 +123,7 @@ header nav ul li a:hover {
 .main-content h3 {
   font-size: 3.5rem;
   color: rgb(60, 165, 189);
+  text-align: center;
 }
 
 .title-container {
@@ -239,6 +240,10 @@ header nav ul li a:hover {
   .contact-me {
     flex-direction: column;
   }
+
+  .contact {
+    text-align: center;
+  }
 }
 
 /* MOBILE */
@@ -254,5 +259,11 @@ header nav ul li a:hover {
 
   .project-title {
     font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .project-title {
+    font-size: 0.5rem;
   }
 }
